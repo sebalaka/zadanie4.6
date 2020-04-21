@@ -1,0 +1,71 @@
+/* Variables */
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  border-color: #282828;
+  color: #3500d3;
+  background-image: linear-gradient(90deg, #000 50%, transparent 50%);
+  background-color: #0c0032;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #fff;
+}
+
+section {
+  padding: 96px 0;
+}
+
+/* Nav */
+.image-wrapper {
+  background-image: url("https://images.pexels.com/photos/1074882/pexels-photo-1074882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center fixed;
+  background-size: cover;
+  display: inline-block;
+}
+
+.image-wrapper h2 {
+  font-family: "Dancing Script", cursive;
+  color: #3500d3;
+}
+
+.nav-background {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+/* Variables */
+
+$color-one: #0c0032;
+$color-two: #190061;
+$color-three: #240090;
+$color-four: #3500d3;
+$color-five: #282828;
+$color-text-one: #fff;
+$color-text-two: #000;
+$transition: all 1s;
+
+/* Global */
+
+$font-text-cursive: 'Dancing Script',
+cursive;
+$font-text: 'Roboto',
+sans-serif;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-text;
+    margin: 0;
+    color: $color-text-two;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    border-color: $color-five;
+    color: $color-four;
+    background-image: linear-gradient(90deg, $color-text-two 50%, transparent 50%);
+    background-color: $color-one;
+    transition: $transition;
+}
+
+
+.btn:hover {
+    background-position: 0 100%;
+    color: $color-text-one;
+}
+
+
+section {
+    padding: 96px 0;
+}
+
+/* Nav */
+.image-wrapper {
+    // background-color: lightblue;
+    background-image: url("https://images.pexels.com/photos/1074882/pexels-photo-1074882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center fixed;
+    background-size: cover;
+    display: inline-block;
+    // position: relative;
+}
+
+.image-wrapper h2 {
+    font-family: $font-text-cursive;
+    color: $color-four;
+}
+
+.nav-background {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
