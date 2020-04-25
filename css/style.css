@@ -52,7 +52,7 @@ section {
 
 /* Nav */
 .image-wrapper {
-  background-image: url("https://images.pexels.com/photos/1074882/pexels-photo-1074882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center fixed;
+  background: url("../images/background-nav.jpeg") no-repeat center fixed;
   background-size: cover;
   display: inline-block;
 }
@@ -68,4 +68,5 @@ section {
   height: 100%;
   object-fit: cover;
 }
+
 /*# sourceMappingURL=style.css.map */

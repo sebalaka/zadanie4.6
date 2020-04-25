@@ -71,7 +71,7 @@ section {
 /* Nav */
 .image-wrapper {
     // background-color: lightblue;
-    background-image: url("https://images.pexels.com/photos/1074882/pexels-photo-1074882.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") no-repeat center fixed;
+    background: url("../images/background-nav.jpeg") no-repeat center fixed;
     background-size: cover;
     display: inline-block;
     // position: relative;
@@ -84,7 +84,7 @@ section {
 
 .nav-background {
     display: inline-block;
-    position: absolute;
+    // position: absolute;
     height: 100%;
     object-fit: cover;
 }
